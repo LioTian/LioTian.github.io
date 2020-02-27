@@ -1,6 +1,4 @@
 import React from 'react';
-import './Article.less';
-
 
 export default function Article() {
     return (
