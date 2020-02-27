@@ -1,0 +1,40 @@
+{
+  "name": "LioTian.github.io",
+  "version": "1.0.0",
+  "description": "this is my website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack --config webpack.dev.config.js",
+    "start": "webpack-dev-server --config webpack.dev.config.js --color --progress --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LioTian/LioTian.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LioTian/LioTian.github.io/issues"
+  },
+  "homepage": "https://github.com/LioTian/LioTian.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "react-hot-loader": "^4.5.3",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5"
+  }
+}
